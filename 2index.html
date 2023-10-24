@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<style>
+     body {
+        background-color: rgb(136, 135, 133);
+        
+
+    }
+     h3 {
+        background-color:rgb(255, 3, 3);
+    }
+    a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        background-color: darkred;
+    }
+    h1 {
+        background-color: rgb(255, 3, 3);
+    }
+    .box{
+        position:absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: rgb(255, 3, 3),rgb(177, 177, 177);
+    }
+</style>
+    <title>MotoGP</title>
+   <h3>
+    Moto GP 
+   </h3>
+   <a href="index.html">Motos</a>
+   <a href="3index.html">Contato</a>
+
+</head>
+<body>
+<h1>Agendar revisão</h1>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Fórmulario de clientes</b></legend>
+                <br>
+                <div class="inputbox">
+                    <input type="text"name="Nome" id="Nome"class="inputuser" required>
+                    <label for="nome">Nome Completo</label>
+                </div>
+                <br><br>
+                <div class="inputbox">
+                    <input type="email"name="email" id="email"class="inputuser" required>
+                    <label for="email">Email</label>
+                </div>
+                <br><br>
+                <div class="inputbox">
+                    <input type="tel"name="telefone" id="telefone"class="inputuser" required>
+                    <label for="telefone">Telefone</label>
+                </div>
+                <br><br>
+                <p>Marca:</p>
+                <input type="radio" id="BMW"name="Marca"value="BMW"required>
+                <label for="BMW">BMW</label>
+                <input type="radio" id="Honda"name="Marca"value="Honda"required>
+                <label for="Honda">Honda</label>
+                <input type="radio" id="Yamaha"name="Marca"value="Yamaha"required>
+                <label for="Yamaha">Yamaha</label>
+                <div>
+                    <input type="date" nome="data" id="data" class="imputuser"required>
+                <label for="data">Data</label>
+                </div>
+                <br><br>
+                <input type="submit"name="submit"id="submit">
+            </fieldset>
+        </form>
+    </div>
+    
+</body>
+</html>
+
